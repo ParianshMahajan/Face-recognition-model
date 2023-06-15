@@ -1,0 +1,153 @@
+li{
+  list-style: none;
+}
+*{
+  padding: 0%;
+margin: auto;
+}
+body{
+  background: url(./Images/facebody.jpg);
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.nav{
+  height: 250px;
+  font-size: 90px;
+  background-color: #e9e9ffb5;
+  font-family: 'Quantico', sans-serif;
+  background: url(./Images/navbg4.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: 12%;
+  color:rgb(0, 0, 0);
+  padding:3% 0% 0% 5%;
+  /* border-bottom: 5px rgb(8, 8, 8) solid; */
+  filter: drop-shadow(14px 12px 4px rgba(0, 0, 0, 0.25));
+  text-shadow: 4px 4px 4px #9494948e;
+}
+footer{
+  position: relative;
+  color: white;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  background-color:rgba(0, 0, 0, 0.862);
+  filter: drop-shadow(0px 12px 4px rgba(0, 0, 0, 0.25));
+  height: 150px;
+  text-shadow: 4px 4px 4px #49494958;
+  box-sizing: border-box;
+  
+}
+footer img{
+  display: inline;
+  float: right;
+  height: 49px;
+  width: 49px;
+}
+#Github{
+  margin:0.1% 4% 0% 0.3% ;
+  box-sizing: border-box;
+  width: 45px;
+  height: 46px;
+}
+#LinkedIn{
+  margin:4px 0% 0% 0%;
+  box-sizing: border-box;
+  width: 36px;
+  height: 35px;
+}
+#Instagram{
+  margin:7px 1% 0% 0% ;
+  box-sizing: border-box;
+  width: 29px;
+  height: 29px;
+}
+#Mail{
+  margin:-2px 1% 0% 0%  ;
+  box-sizing: border-box;
+  width: 34px;
+height: 47px;
+}
+.copyright{
+  margin: 2% 0% 2% 2%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+footer h3{
+  font-family: 'Quantico', sans-serif;
+  font-size: 37px;
+  margin: 1% 0% 0% 3%;
+}
+.number{
+  font-family: 'Quantico', sans-serif;
+  margin-top: -1%;
+  font-size: 20px;
+  margin-left: 3%;
+}
+
+
+
+#webcam-container canvas{
+  /* margin:12% 0% 0% 35%; */
+  
+position: absolute;
+width: 362px;
+height: 362px;
+margin: 3.32%;
+margin-left:5.3%;
+background: #DBD7D7;
+box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+}
+
+
+#webcam-container{
+width: 1000px;
+height: 496px;
+left: 403px;
+margin-top: 110px;
+background: url(./Images/face2bg.jpg);
+background-repeat:no-repeat ;
+background-size: cover;
+backface-visibility: visible;
+box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25), inset 7px 5px 10px rgba(255, 255, 255, 0.487);
+border-radius: 47px;
+padding: 1%;
+}
+ 
+#webcam-container2{
+  position: absolute;
+width: 851px;
+height: 414px;
+margin: 2% 4%;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 34px;
+}
+
+
+
+
+#label-container{
+  position: relative;
+  width: 388px;
+  height: 272px;
+  background: #E2E0E0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+  margin: 8%;
+  margin-left: 50%;
+}
+
+#label-container div{
+  font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+padding: 13%;
+}

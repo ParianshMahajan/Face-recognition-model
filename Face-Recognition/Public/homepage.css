@@ -1,0 +1,172 @@
+li{
+    list-style: none;
+}
+*{
+    padding: 0%;
+ margin: auto;
+}
+body{
+    background: url(./Images/bodybg.jpg);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav{
+    height: 250px;
+    font-family: 'Quantico', sans-serif;
+    font-size: 90px;
+    background-color: #e9e9ffb5;
+    background: url(./Images/navbg4.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: 12%;
+    color:rgb(0, 0, 0);
+    padding:3% 0% 0% 5%;
+    /* border-bottom: 5px rgb(8, 8, 8) solid; */
+    filter: drop-shadow(0px 12px 4px rgba(0, 0, 0, 0.25));
+    text-shadow: 4px 4px 4px #9494948e;
+}
+/* .container1{
+    height: 20px;
+    background-color:rgba(0, 0, 0, 0.396);
+} */
+
+footer{
+    position: relative;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    background-color:rgba(0, 0, 0, 0.862);
+    filter: drop-shadow(14px 12px 4px rgba(0, 0, 0, 0.25));
+    height: 150px;
+    text-shadow: 4px 4px 4px #49494958;
+    box-sizing: border-box;
+
+}
+footer img{
+    display: inline;
+    float: right;
+    height: 49px;
+    width: 49px;
+}
+/* 
+footer img:hover{
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(0, 0, 0);
+} */
+
+#Github{
+    margin:0.1% 4% 0% 0.2% ;
+    box-sizing: border-box;
+    width: 45px;
+    height: 46px;
+}
+#Github:hover{
+    width: 50px;
+    height: 51px;
+}
+
+#LinkedIn{
+    margin:4px 0% 0% 0%;
+    box-sizing: border-box;
+    width: 36px;
+    height: 35px;
+}
+#LinkedIn:hover{
+    width: 41px;
+    height: 40px;
+}
+
+#Instagram{
+    margin:7px 1% 0% 0% ;
+    box-sizing: border-box;
+    width: 29px;
+    height: 29px;
+}
+#Instagram:hover{
+    width: 34px;
+    height: 34px;
+}
+
+#Mail{
+    margin:-2px 1% 0% 0%  ;
+    box-sizing: border-box;
+    width: 34px;
+height: 47px;
+}
+#Mail:hover{
+    width: 39px;
+    height: 52px;
+}
+ 
+.copyright{
+    margin: 2% 0% 2% 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+footer h3{
+    font-family: 'Quantico', sans-serif;
+    font-size: 37px;
+    margin: 1% 0% 0% 3%;
+}
+.number{
+    font-family: 'Quantico', sans-serif;
+    margin-top: -1%;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+
+
+/* middle boxes; */
+
+
+
+.boxes a{
+    opacity:1 ;
+    text-decoration: none;
+ color: white;
+ font-size: 35px;
+ font-weight: 700;
+ font-family:Arial, Helvetica, sans-serif;
+ text-shadow: 2px 2px 4px black;
+} 
+
+
+.boxes div:first-child{
+    background-position: 50% 50%;
+    background-image: url(./Images/fruits.jpg);
+}
+.boxes div:nth-child(2){
+    background-position: 50% 50%;
+    background-image: url(./Images/Face.jpg);
+}
+.boxes div:last-child{
+    background-position: 44% 50%;
+    background-image: url(./Images/students.png);
+}
+
+.boxes div:hover{
+    width: 320px;
+    height: 320px;    
+}   
+
+.boxes div{
+    border: 7px whitesmoke solid;
+    border-radius: 28px;
+    width:300px;
+    margin-bottom: 4%;
+    height:300px;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: 54% 50%;
+    display: flex;
+    align-items: center;
+}
+
+.boxes{
+    padding: 0% 6%;
+    margin-top: 11%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
